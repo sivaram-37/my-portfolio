@@ -18,8 +18,8 @@ export function DesktopNavigation() {
 					<Link
 						href={route.url}
 						className={cn(
-							"font-thin text-gray-300 hover:text-blue-300 md:px-4",
-							pathname === route.url && "text-blue-500 hover:text-blue-500",
+							"font-thin text-blue-400 hover:text-gray-300 md:px-4",
+							pathname === route.url && "text-gray-400 hover:text-gray-400",
 							index !== navRoutes.length - 1 && "border-r-2 border-gray-600"
 						)}
 					>

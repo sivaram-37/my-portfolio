@@ -14,9 +14,6 @@ export default function Home() {
 					priority
 				/>
 				<div className="flex flex-col">
-					<h1 className="px-4 text-3xl md:text-8xl font-bold text-primary mb-3 md:mt-5">
-						Hello
-					</h1>
 					<Image
 						src="/profile.jpg"
 						alt="My profile image of mobile version"
@@ -25,8 +22,11 @@ export default function Home() {
 						className="block md:hidden h-64 w-64 mb-5 self-center rounded-full"
 						priority
 					/>
+					<h1 className="px-4 md:px-2 text-3xl md:text-8xl font-bold text-primary mb-3 md:mt-2 md:mb-4">
+						Hello
+					</h1>
 					<div className="px-4 max-w-80 md:max-w-[26rem] mb-6">
-						<h3 className="text-lg md:text-2xl font-semibold">
+						<h3 className="mb-1 md:mb-3 text-lg md:text-2xl font-semibold text-blue-300">
 							Here&apos;s who I am & what I do
 						</h3>
 						<p className="text-sm md:text-base font-light text-gray-400">
@@ -39,27 +39,27 @@ export default function Home() {
 						</p>
 					</div>
 				</div>
-				<ul className="px-4 flex justify-around col-span-2 mb-0 md:mt-10 md:mb-5">
-					<li className="text-xs md:text-lg md:font-medium rounded-full flex justify-center items-center">
+				<ul className="px-4 flex justify-around col-span-2 mb-0 md:mt-10 md:mb-5 text-sm md:text-xl md:font-semibold">
+					<li className="rounded-full flex justify-center items-center">
 						<Link
 							href="/resume"
-							className="px-4 py-7 md:px-12 md:py-16 bg-fuchsia-600 hover:bg-fuchsia-400 hover:text-gray-800 rounded-full transition-all ease-in-out delay-75 duration-500"
+							className="px-4 py-[30px] md:px-14 md:py-20 bg-fuchsia-600 hover:bg-fuchsia-400 hover:text-gray-800 rounded-full transition-all ease-in-out delay-75 duration-500"
 						>
 							Resume
 						</Link>
 					</li>
-					<li className="text-xs md:text-lg md:font-medium rounded-full flex justify-center items-center">
+					<li className="rounded-full flex justify-center items-center">
 						<Link
 							href="/projects"
-							className="px-4 py-7 md:px-12 md:py-16 bg-emerald-600 hover:bg-emerald-400 hover:text-gray-800 rounded-full transition-all ease-in-out delay-75 duration-500"
+							className="px-4 py-[30px] md:px-14 md:py-20 bg-emerald-600 hover:bg-emerald-400 hover:text-gray-800 rounded-full transition-all ease-in-out delay-75 duration-500"
 						>
 							Projects
 						</Link>
 					</li>
-					<li className="text-xs md:text-lg md:font-medium rounded-full flex justify-center items-center">
+					<li className="rounded-full flex justify-center items-center">
 						<Link
 							href="/contact"
-							className="px-4 py-7 md:px-12 md:py-16 bg-cyan-600 hover:bg-cyan-400 hover:text-gray-800 rounded-full transition-all ease-in-out delay-75 duration-500"
+							className="px-4 py-[30px] md:px-14 md:py-20 bg-orange-500 hover:bg-orange-400 hover:text-gray-800 rounded-full transition-all ease-in-out delay-75 duration-500"
 						>
 							Contact
 						</Link>
