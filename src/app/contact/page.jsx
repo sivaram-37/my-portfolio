@@ -1,10 +1,10 @@
 "use client";
 
-import ContactForm from "@/components/contact-form";
-import { contactFormSchema } from "@/components/contact-form-schema";
 import { useState } from "react";
-import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import { contactFormSchema } from "@/components/contact/contact-form-schema";
+import ContactForm from "@/components/contact/contact-form";
 
 export default function ContactPage() {
 	const [isSubmitting, setIsSubmitting] = useState(false);
