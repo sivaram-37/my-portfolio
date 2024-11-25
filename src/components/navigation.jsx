@@ -18,8 +18,8 @@ export function DesktopNavigation() {
 					<Link
 						href={route.url}
 						className={cn(
-							"font-thin text-blue-400 hover:text-gray-300 md:px-4",
-							pathname === route.url && "text-gray-400 hover:text-gray-400",
+							"font-thin text-gray-300 hover:text-gray-400 md:px-4",
+							pathname === route.url && "text-blue-500 hover:text-blue-500",
 							index !== navRoutes.length - 1 && "border-r-2 border-gray-600"
 						)}
 					>
@@ -75,7 +75,7 @@ export function MobileNavigation() {
 							<Link
 								key={nav.url}
 								className={cn(
-									"text-gray-200 text-left w-full py-2",
+									"text-gray-300 text-left w-full py-2",
 									index !== navRoutes.length - 1 && "border-b border-b-gray-400",
 									pathname === nav.url && "text-blue-500 hover:text-blue-500"
 								)}
