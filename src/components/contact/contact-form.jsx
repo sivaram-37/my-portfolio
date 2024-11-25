@@ -1,7 +1,7 @@
-import { Button } from "./ui/button";
-import { Form, FormField, FormItem, FormLabel, FormControl, FormMessage } from "./ui/form";
-import { Input } from "./ui/input";
-import { Textarea } from "./ui/textarea";
+import { Button } from "../ui/button";
+import { Form, FormField, FormItem, FormLabel, FormControl, FormMessage } from "../ui/form";
+import { Input } from "../ui/input";
+import { Textarea } from "../ui/textarea";
 
 export default function ContactForm({ form, isSubmitting, onSubmit }) {
 	return (
