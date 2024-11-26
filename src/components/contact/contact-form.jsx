@@ -13,7 +13,7 @@ export default function ContactForm({ form, isSubmitting, onSubmit }) {
 			<Form {...form}>
 				<form
 					onSubmit={form.handleSubmit(onSubmit)}
-					className="p-4 md:p-6 w-[90%] md:w-5/6 lg:w-3/4 mx-auto text-sm lg:text-lg space-y-3 md:space-y-5 shadow-[0_0_12px] shadow-white rounded-md bg-white text-gray-500"
+					className="p-4 md:p-6 w-[90%] lg:w-3/4 mx-auto text-sm lg:text-lg space-y-3 md:space-y-5 shadow-[0_0_12px] shadow-white rounded-md bg-white text-gray-500"
 				>
 					{/* Firstname and Lastname */}
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-6">
