@@ -8,7 +8,7 @@ import {
 	SingleContentLayout,
 	TextLayout,
 	TitleLayout,
-} from "@/components/resume/box-layout";
+} from "@/components/layouts";
 import ResumeSubtitle from "@/components/resume/resume-subtitle";
 import ResumeList from "@/components/resume/resume-list";
 import { educations, experiences, others, skillsets } from "@/lib/contents";
