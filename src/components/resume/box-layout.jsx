@@ -22,21 +22,21 @@ export function SingleContentLayout({ children }) {
 	);
 }
 
-export function TitleLayout({ startYear, endYear, firstTitle, secondTitle, thirdTitle }) {
+export function TitleLayout({ startYear = "", endYear, firstTitle, secondTitle, thirdTitle }) {
 	return (
 		<div className="col-span-12 mb-4 md:col-span-5">
 			{endYear && (
 				<h1 className="mb-1 text-lg md:text-2xl font-bold text-primary">
-					{startYear ? `${startYear} - ${endYear}` : endYear}
+					{startYear !== "" ? `${startYear} - ${endYear}` : endYear}
 				</h1>
 			)}
 			{firstTitle && (
-				<h2 className="mb-1 text-gray-950 text-base md:text-lg leading-tight">{firstTitle}</h2>
+				<h2 className="mb-1 text-blue-500 text-base md:text-lg leading-tight">{firstTitle}</h2>
 			)}
 			{secondTitle && (
-				<h3 className="mb-1 text-gray-800 text-sm md:text-base">{secondTitle}</h3>
+				<h3 className="mb-1 text-gray-700 text-sm md:text-base">{secondTitle}</h3>
 			)}
-			{thirdTitle && <h4 className="mb-1 text-gray-800 text-xs md:text-sm">{thirdTitle}</h4>}
+			{thirdTitle && <h4 className="mb-1 text-gray-400 text-xs md:text-sm">{thirdTitle}</h4>}
 		</div>
 	);
 }
