@@ -3,7 +3,7 @@ import { DesktopNavigation, MobileNavigation } from "./navigation";
 
 export default function RootHeader() {
 	return (
-		<header className="border-t-4 md:border-t-8 border-primary">
+		<header className="sticky top-0 z-50 border-t-4 border-b md:border-t-8 border-primary bg-gray-800">
 			<nav className="px-4 py-3 md:px-12 md:py-6 flex justify-between items-center">
 				<ul>
 					<li>
