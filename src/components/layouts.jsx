@@ -48,3 +48,19 @@ export function TextLayout({ children }) {
 		</div>
 	);
 }
+
+export function ProjectRootLayout({ children }) {
+	return (
+		<div className="mx-4 my-8 md:mx-12 md:my-12 lg:mx-48 lg:my-16 space-y-6 md:space-y-12">
+			{children}
+		</div>
+	);
+}
+
+export function ProjectBoxLayout({ children }) {
+	return (
+		<div className="py-4 md:py-8 text-gray-800 bg-slate-100 grid gap-4 md:gap-8 rounded-sm shadow-[0_0_10px] shadow-slate-200">
+			{children}
+		</div>
+	);
+}
