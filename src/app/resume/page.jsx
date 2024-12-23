@@ -11,7 +11,7 @@ import {
 } from "@/components/layouts";
 import ResumeSubtitle from "@/components/resume/resume-subtitle";
 import ResumeList from "@/components/resume/resume-list";
-import { educations, experiences, others, skillsets } from "@/lib/contents";
+import { educations, experiences, others, skillsets } from "@/lib/data";
 
 export default function ResumePage() {
 	return (
