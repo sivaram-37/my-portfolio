@@ -9,7 +9,7 @@ export function ProjectImage({ srcImage, altImage }) {
 				width={437}
 				height={271}
 				priority
-				className="border-2 border-primary bg-primary text-gray-200"
+				className="border border-primary shadow-[0_0_4px] shadow-primary text-gray-200"
 			/>
 		</div>
 	);
