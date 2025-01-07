@@ -17,6 +17,9 @@ const lato = Lato({
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			<head>
+				<link rel="icon" href="/icon?<generated>" type="image/png" sizes="32x32" />
+			</head>
 			<body className={`${lato} bg-gray-800 text-gray-200 antialiased`}>
 				<RootHeader />
 				{children}
