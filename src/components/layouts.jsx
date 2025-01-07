@@ -24,7 +24,7 @@ export function SingleContentLayout({ children }) {
 
 export function TitleLayout({ startYear = "", endYear, firstTitle, secondTitle, thirdTitle }) {
 	return (
-		<div className="col-span-12 mb-4 md:col-span-5">
+		<div className="col-span-12 mb-2 md:col-span-5">
 			{endYear && (
 				<h1 className="mb-1 text-lg md:text-2xl font-bold text-primary">
 					{startYear !== "" ? `${startYear} - ${endYear}` : endYear}
@@ -43,7 +43,7 @@ export function TitleLayout({ startYear = "", endYear, firstTitle, secondTitle, 
 
 export function TextLayout({ children }) {
 	return (
-		<div className="text-xs md:text-base text-gray-500 col-span-12 md:col-span-7">
+		<div className="text-xs md:text-base text-gray-500 col-span-12 md:col-span-7 md:ml-1">
 			{children}
 		</div>
 	);
