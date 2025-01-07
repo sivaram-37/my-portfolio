@@ -32,14 +32,14 @@ export default function RootFooter() {
 							<Link href="https://www.linkedin.com/in/sivaramvajravelu" target="_blank">
 								<BsLinkedin className="text-gray-400 hover:text-blue-400" size={20} />
 							</Link>
-							<Link href="#" target="_blank">
+							<Link href="https://github.com/sivaram-37" target="_blank">
 								<BsGithub className="text-gray-400 hover:text-blue-400" size={20} />
 							</Link>
-							<Link href="#" target="_blank">
+							<Link
+								href="https://www.instagram.com/___sivaram___37___/?igsh=aHM3cnpuZ3Z4dXdx"
+								target="_blank"
+							>
 								<BsInstagram className="text-gray-400 hover:text-blue-400" size={20} />
-							</Link>
-							<Link href="#" target="_blank">
-								<AiOutlineX className="text-gray-400 hover:text-blue-400" size={20} />
 							</Link>
 						</div>
 					</li>
